@@ -20,13 +20,14 @@ body
     margin: 16em 8em;
 }
 h1{
-    font-size:1.3rem;
-    width: 55%;
+    font-size:3.3rem;
     color:aquamarine;
 }
-p{
+h4{
+    font-size:2.3rem;
+}
+h5{
     font-size:1.3em;
-    width:55%;
     color:rgb(107,107,122);
 }
 button{
@@ -46,8 +47,61 @@ button{
     outline: none;
 }
 
+.experience-container{
+    color: #fff;
+    /* border: 1px solid #fff; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    /* left: 20px; */
+
+  }
+  .experience{
+    position: absolute;
+    left: 56px;
+    top:53%;
+    color:rgb(241, 238, 234);
+  }
+  .item{
+    position: absolute;
+    left: 56px;
+    top:60%;
+    color:rgb(162, 231, 123);
+
+  }
+  .item small {
+    color:rgb(255, 255, 255);
+
+  }
+  .form{
+    /* border: 1px solid #000; */
+    position: absolute;
+    left: 75%;
+    top:50%;
+  }
+  .form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  }
+   .icon a{
+    color:#fff;
+  }
+  .icon a:hover{
+    color: #fff;
+  }
+
 
 /*  */
+
+a {
+    color:aquamarine;
+}
 
 
 /*# sourceMappingURL=main.css.map*/
